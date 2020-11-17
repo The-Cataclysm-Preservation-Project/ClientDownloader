@@ -21,7 +21,8 @@ namespace ClientDownloader
                 { "D34B3DA03C59F38A510EAA8CCC151EC7", "Microsoft.VC80.CRT.manifest" },
                 { "1169436EE42F860C7DB37A4692B38F0E", "msvcr80.dll" },
                 { "DE5A2E274F2D3F2B89A2E6EC9CD8FD2A", "Wow.exe" },
-                { "78766BBBFC6F9E5DA5D930CB11F0A1E1", "WowError.exe" }
+                { "78766BBBFC6F9E5DA5D930CB11F0A1E1", "WowError.exe" },
+                { "E198F00FE056B24ED58B36E1C6A048F4", "Repair.exe" }
             };
 
             string server = "http://blizzard.vo.llnwd.net:80/o16/content/repair/wow/";
