@@ -65,6 +65,16 @@ namespace ClientDownloader
                     ClearCurrentConsoleLine();
                 }
             }
+
+            Console.WriteLine("Creating WoW.mfil...");
+            using (StreamWriter sw = File.CreateText("WoW.mfil"))
+            {
+                sw.WriteLine("version=2");
+                sw.WriteLine("server=akamai");
+                sw.WriteLine("	location=http://dist.blizzard.com.edgesuite.net/wow-pod-retail/EU/15050.direct/");
+                sw.WriteLine("manifest_partial=wow-15595-0C3502F50D17376754B9E9CB0109F4C5.mfil");
+            }
+
             Console.WriteLine("Sucessfully downloaded client data!");
             Console.WriteLine("Press Enter to exit...");
             Console.ReadLine();
