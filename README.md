@@ -6,5 +6,8 @@ ASP.NET Core 3.1 Runtime (v3.1.13)
 https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-aspnetcore-3.1.13-windows-hosting-bundle-installer
 
 # Alternatives
-## Linux
+## Windows 10
+Run `ClientDownloader.ps1` with your `PowerShell`.
+
+## Linux/Mac
 Run `bash ClientDownloader.sh` it will simply download all files into a newly created folder `wow434` using `curl` and `wget`.

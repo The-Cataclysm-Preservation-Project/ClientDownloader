@@ -3,7 +3,7 @@ mkdir wow434
 cd wow434
 
 echo "Downloading files..."
-HOST_URL="http://blizzard.vo.llnwd.net:80/o16/content/repair/wow/"
+$HOST_URL="http://blizzard.vo.llnwd.net:80/o16/content/repair/wow/"
 Invoke-Webrequest ${HOST_URL}E/1/E1FC69A72E4E23A96DBD535B372974A8 -Outfile "BackgroundDownloader.exe"
 Invoke-Webrequest ${HOST_URL}2/4/24433A51A32335A39D2AF8CB55C467D3 -Outfile "Battle.net.dll"
 Invoke-Webrequest ${HOST_URL}8/2/82EF43D5F8D1B1C87C3505ECD241FFF6 -Outfile "Blizzard Updater.exe"
