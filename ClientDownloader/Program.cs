@@ -35,7 +35,7 @@ namespace ClientDownloader
 
             string mfilHash = "F8E7D7BA6CDE053B1A9F85BD36980A72";
 
-            string server = "http://blizzard.vo.llnwd.net:80/o16/content/repair/wow/";
+            string server = "http://dist.blizzard.com.edgesuite.net/repair/wow/";
 
             using (WebClient webClient = new WebClient())
             {
